@@ -1,0 +1,8 @@
+.icons{
+    display: flex;
+    max-width: 250px;
+    justify-content:space-around;
+
+}
+ 
+/* האייקונים ב-פוטר מקבלים עיצוב וכמובן הוספה של שנראה יפה לעין בשימוש דיספליי פלקס*/

@@ -1,0 +1,71 @@
+.carousleDiv {
+    background-position: center;
+    background-size:cover;
+    min-height: 65vh;
+    background-repeat: no-repeat;
+}
+
+.vodApp_nav {
+    position: absolute;
+    z-index: 2;
+    min-height: 55px;
+    width: 100%;
+    padding: 6px;
+    
+}
+
+
+.vodApp_inputDiv {
+    border: 2px solid rgb(183, 46, 46);
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.489);
+   
+}
+
+.vodApp_input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 4px 0 4px 4px;
+    color: rgb(246, 227, 227);
+}
+
+.vodApp_input::placeholder {
+    color: white;
+}
+
+.yearLinks-link {
+    text-decoration: none;
+    color: rgb(223, 195, 82);
+    transition: 800ms;
+    font-weight: 600;
+}
+
+.yearLinks-link:hover {
+    color: white;
+}
+
+.item_img {
+    height: 340px;
+}
+
+
+.yearLinx_select {
+    font-weight: 800;
+    color: rgb(20, 18, 12);
+
+}
+
+@media screen and (max-width: 600px) {
+    .vodApp_inputDiv {
+        width: 70%;
+    }
+
+    .item_img {
+        height: 220px;
+    }
+
+    .info_stars {
+        justify-content: center;
+    }
+}
